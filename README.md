@@ -4,7 +4,7 @@ A calculator built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-[View Calculator](https://mzahidusman.github.io/calculator-app/)
+[View Calculator](https://mzahidusman.github.io/Calculator-app/)
 
 ## Features
 
