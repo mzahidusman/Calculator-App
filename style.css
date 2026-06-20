@@ -76,7 +76,7 @@
         #btn4, #btn5{
             background-color: lightskyblue
         }
-  @media(min-width:576px){
+  @media(max-width:576px){
             .calculator{
                 padding-left: 5px;
                 padding-right: 5px;
