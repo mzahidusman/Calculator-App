@@ -7,7 +7,7 @@
         }
         .calculator{
             border: 2px solid  rgb(200, 213, 202);
-            padding: 0px 20px 20px 20px 20px;
+            padding: 0px 20px 20px 20px;
             background-color: rgb(185, 196, 189);
             box-shadow: 0 6px 10px whitesmoke;
             border-radius: 10px;
@@ -62,7 +62,7 @@
         }
         .bodycal{
             margin-top: 10px;
-            padding: 4px;
+            padding: 10px 8px 10px 8px;
         }
         
         button{
@@ -100,5 +100,13 @@
             .calculator{
                 padding-left: 5px;
                 padding-right: 5px;
+            }
+            .bodycal{
+                padding: 0;
+            }
+            button{
+                 width: 44px;
+                 height:38px;
+                 margin: 3px 3px 3px 3px;
             }
         }
