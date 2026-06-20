@@ -9,57 +9,58 @@
 <body>
     
     <div class="calculator">
+        <div class="title"><span class="titleText1">Scientific</span> <span class="titleText2">Calculator</span></div>
         <div class="screen">
             <input type="text" name="" id="displayinput" readonly placeholder="0">
         </div>
     <div class="bodycal">
         <div class="btnrow1">
-            <button id="btn1" onclick="square()">x²</button>
-            <button id="btn2" onclick="pi()">π</button>
-            <button id="btn3" onclick="evalue()">e</button>
-            <button id="btn4" onclick="backspace()">CE</button>
-            <button id="btn5" onclick="clearAll()">&otimes;</button>
+            <button id="btn1" onclick="append('^2')">x²</button>
+            <button id="btn2" onclick="append('π')">π</button>
+            <button id="btn3" onclick="append('e')">e</button>
+            <button id="btn4" onclick="backspace()">DEL</button>
+            <button id="btn5" onclick="clearAll()">AC</button>
         </div>
         <div class="btnrow2">
-            <button id="btn6" onclick="cuberoot()">&#8731;</button>
-            <button id="btn7" onclick="percent()">%</button>
-            <button id="btn8" onclick="sin()">sin</button>
-            <button id="btn9" onclick="cos()">cos</button>
-            <button id="btn10" onclick="tan()">tan</button>
+            <button id="btn6" onclick="append('∛(')">∛</button>
+            <button id="btn7" onclick="append('%')">%</button>
+            <button id="btn8" onclick="append('sin(')">sin</button>
+            <button id="btn9" onclick="append('cos(')">cos</button>
+            <button id="btn10" onclick="append('tan(')">tan</button>
         </div>
         <div class="btnrow2">
-            <button id="btn11" onclick="Absolute()">|x|</button>
-            <button id="btn12" onclick="lbracket()">(</button>
-            <button id="btn13" onclick="rbracket()">)</button>
-            <button id="btn14" onclick="factorial()">n!</button>
-            <button id="btn15" onclick="divide()">÷</button>
+            <button id="btn11" onclick="append('log(')">log</button>
+            <button id="btn12" onclick="append('(')">(</button>
+            <button id="btn13" onclick="append(')')">)</button>
+            <button id="btn14" onclick="append('!')">n!</button>
+            <button id="btn15" onclick="append('÷')">÷</button>
         </div>
         <div class="btnrow3">
-            <button id="btn16" onclick="squareroot()">√x</button>
-            <button id="btn17" onclick="seven()">7</button>
-            <button id="btn18" onclick="eight()">8</button>
-            <button id="btn19" onclick="nine()">9</button>
-            <button id="btn20" onclick="multiply()">× </button>
+            <button id="btn16" onclick="append('√(')">√x</button>
+            <button id="btn17" onclick="append('7')">7</button>
+            <button id="btn18" onclick="append('8')">8</button>
+            <button id="btn19" onclick="append('9')">9</button>
+            <button id="btn20" onclick="append('×')">× </button>
         </div>
         <div class="btnrow3">
-            <button id="btn21" onclick="cube()">x³</button>
-            <button id="btn22" onclick="four()">4</button>
-            <button id="btn23" onclick="five()">5</button>
-            <button id="btn24" onclick="six()">6</button>
-            <button id="btn25" onclick="subtract()">−</button>
+            <button id="btn21" onclick="append('^3')">x³</button>
+            <button id="btn22" onclick="append('4')">4</button>
+            <button id="btn23" onclick="append('5')">5</button>
+            <button id="btn24" onclick="append('6')">6</button>
+            <button id="btn25" onclick="append('-')">−</button>
         </div>
         <div class="btnrow3">
-            <button id="btn26" onclick="baseexponent()">xʸ</button>
-            <button id="btn27" onclick="one()">1</button>
-            <button id="btn28" onclick="two()">2</button>
-            <button id="btn29" onclick="three()">3</button>
-            <button id="btn30" onclick="add()">＋</button>
+            <button id="btn26" onclick="append('^')">xʸ</button>
+            <button id="btn27" onclick="append('1')">1</button>
+            <button id="btn28" onclick="append('2')">2</button>
+            <button id="btn29" onclick="append('3')">3</button>
+            <button id="btn30" onclick="append('+')">＋</button>
         </div>
         <div class="btnrow3">
-            <button id="btn31" onclick="dzeros()">00</button>
+            <button id="btn31" onclick="append('00')">00</button>
             <button id="btn32" onclick="negate()">∓</button>
-            <button id="btn33" onclick="zero()">0</button>
-            <button id="btn34" onclick="point()">.</button>
+            <button id="btn33" onclick="append('0')">0</button>
+            <button id="btn34" onclick="append('.')">.</button>
             <button id="btn35" onclick="equal()">＝</button>
         </div>
     </div>
