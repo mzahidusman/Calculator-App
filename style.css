@@ -76,7 +76,7 @@
         #btn4, #btn5{
             background-color: lightskyblue
         }
-  @media(max-width:576px){
+  @media(min-width:576px){
             .container{
                 padding: 5px;
              }
