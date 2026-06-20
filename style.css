@@ -72,10 +72,12 @@
         #btn15,#btn20, #btn25, #btn30, #btn35{
             background-color: lightpink;
         }
+   
+        #btn4, #btn5{
+            background-color: lightskyblue
+        }
   @media(max-width:576px){
             .container{
                 padding: 5px;
              }
-        #btn4, #btn5{
-            background-color: lightskyblue
-        }
+  }
