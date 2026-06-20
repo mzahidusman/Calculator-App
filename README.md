@@ -11,6 +11,11 @@ https://mzahidusman.github.io/Calculator-App/
 - Basic arithmetic operations
 - Percentage calculations
 - Trigonometric functions
+- log function
+- Euler's Number
+- responsiveness
+- actual mathematical operator implementation
+- Reg Expressions
 
 ## Technologies Used
 
