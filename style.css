@@ -7,30 +7,51 @@
         }
         .calculator{
             border: 2px solid  rgb(200, 213, 202);
-            padding: 20px;            /* border-style: outset; */
+            padding: 0px 20px 20px 20px 20px;
             background-color: rgb(185, 196, 189);
             box-shadow: 0 6px 10px whitesmoke;
             border-radius: 10px;
             
         }
+        .title{
+            text-align: center;
+            height: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgb(212, 202, 202,0.7);
+            border-radius: 9px;
+            margin-top: 1px;
+            padding-top: 2px;
+        }
+        .titleText1{
+            background-image: radial-gradient(red,green,blue);
+            background-clip: text;
+            background-size: cover;
+            color: transparent;
+            display: inline-block;
+        }
+         .titleText2{
+            background-image: radial-gradient(rgb(55, 134, 59),rgb(128, 34, 0),rgb(146, 140, 78));
+            background-clip: text;
+            background-size: cover;
+            color: transparent;
+            display: inline-block;
+        }
         input[type='text']{
-            width: 300px;
+            width: 280px;
             border:none;
-            font-family: 'Courier New', 'Roboto', monospace;
             padding-top: 10px;
-            padding-right: 5px;
+            padding-right: 7px;
             padding-left: 5px;
             font-size: 30px;
             height: 35px;
-            background-color: rgb(91, 86, 86);
+            background-color: transparent;
             color: whitesmoke;
             outline: none;
             border-radius: 7px;
             text-align: right;
             font-size: 30px;
-        }
-        .screen{
-            filter: drop-shadow(0 5px 5px rgb(222, 215, 215)); 
+            outline: none;
         }
           
         body{
@@ -41,7 +62,7 @@
         }
         .bodycal{
             margin-top: 10px;
-            padding: 8px;
+            padding: 4px;
         }
         
         button{
@@ -55,7 +76,7 @@
             border-color: bisque;
             opacity: 0.8;
             transition: opacity 0.2s;
-            border-radius: 8px;
+            border-radius: 15px;
         }
         button:hover{
             opacity: 1;
@@ -72,13 +93,12 @@
         #btn15,#btn20, #btn25, #btn30, #btn35{
             background-color: lightpink;
         }
-   
         #btn4, #btn5{
             background-color: lightskyblue
         }
-  @media(max-width:576px){
+        @media(max-width:576){
             .calculator{
                 padding-left: 5px;
                 padding-right: 5px;
-             }
-  }
+            }
+        }
